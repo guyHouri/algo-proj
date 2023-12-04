@@ -101,10 +101,7 @@ public class AStar {
         // for every tile.
         // This violates the admissibility property of heuristics.
         // It ensures that the heuristic is always greater than the true cost.
-        // return new Random().nextInt(worstManhattenValue(gameBoard)) + 10 +
-        // manhattanDistance(gameBoard);
-        return manhattanDistance(gameBoard) + 100;
-
+        return new Random().nextInt(worstManhattenValue(gameBoard)) + 10 + manhattanDistance(gameBoard);
     }
 
     private static List<GameBoard> buildPath(Node node) {
