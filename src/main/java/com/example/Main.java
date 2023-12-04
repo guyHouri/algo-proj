@@ -15,7 +15,6 @@ public class Main {
         // Tests.basic(5, 10);
 
         // Tests.avg(4, 10, 50);
-        Tests.avg(5, 15, 50);
-
+        // Tests.avg(5, 15, 50);
     }
 }
